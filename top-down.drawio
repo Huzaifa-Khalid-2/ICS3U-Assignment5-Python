@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="pBK1guH4bu_zmOCUXD5L" name="Top Down">
+        <mxGraphModel dx="434" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-5" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kIHPj6zRgX1InL4mbEAz-1" target="kIHPj6zRgX1InL4mbEAz-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-6" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" parent="1" source="kIHPj6zRgX1InL4mbEAz-1" target="kIHPj6zRgX1InL4mbEAz-3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="330" y="160"/>
+                            <mxPoint x="130" y="160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="kIHPj6zRgX1InL4mbEAz-1" target="kIHPj6zRgX1InL4mbEAz-4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="330" y="160"/>
+                            <mxPoint x="520" y="160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-1" value="sum of exponents&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="kIHPj6zRgX1InL4mbEAz-2" target="kIHPj6zRgX1InL4mbEAz-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-2" value="Process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="kIHPj6zRgX1InL4mbEAz-3" target="kIHPj6zRgX1InL4mbEAz-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="130" y="310"/>
+                            <mxPoint x="130" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-3" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;" parent="1" source="kIHPj6zRgX1InL4mbEAz-4" target="kIHPj6zRgX1InL4mbEAz-16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-4" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-8" value="Get integer &amp;gt;= 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-12" value="For loop_counter in range(user_input)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="kIHPj6zRgX1InL4mbEAz-16" value="Show answer accordingly&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="290" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
