@@ -1,33 +1,30 @@
-#!/usr/bin/env python3
-
-# Created by: Huzaifa Khalid
-# Created on: April 2022
-# This program uses a while loop to do exponential functions
-
-
 def main():
-    # this function uses a while loop
+    # this function uses a for loop
     counter = 0
-    sum_number = 0
+    odd = 0
+    even = 0
 
     # input
-    number_as_string = input("Enter a integer >= 0: ")
-    # process & output
+    number_as_string = input("How many numbers do you want to add: ")
     print("")
+
+    # process & output
     try:
-        number_as_int = int(number_as_string)
-        if number_as_int < 0:
-            print(
-                "The number can't be {0}. Positive numbers only".format(
-                    number_as_string
-                )
-            )
-        else:
-            for counter in range(number_as_int + 1):
-                sum_number = counter**2
-                print("{0}² = {1}".format(counter, sum_number))
+        number_as_integer = int(number_as_string)
+        for counter in range(number_as_integer):
+            second_string = input("Enter your number: ")
+            print("")
+            second_integer = int(second_string)
+            if second_integer % 2 == 0:
+                even = even + second_integer
+            else:
+                odd = odd + second_integer
+        print("The sum of all even numbers is = {0}.".format(even))
+        print("The sum of all odd numbers is = {0}.".format(odd))
+
     except Exception:
-        print("¯\(°_o)/¯ invalid input.")
+        print("Invalid input, you plonker.")
+
     print("\nDone.")
 
 
