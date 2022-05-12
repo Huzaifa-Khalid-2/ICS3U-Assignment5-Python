@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+
+# Created by: Huzaifa Khalid
+# Created on: March 2022
+# This module uses a for loop with user input
+
+
 def main():
     # this function uses a for loop
     counter = 0
